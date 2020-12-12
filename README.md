@@ -1,9 +1,10 @@
 # Mouse MSX SDCC Library (fR3eL Project)
 
 ```
-Author: Ramones
-        adapted to SDCC by Andrear
-        new versions by mvac7 [mvac7303b@gmail.com]
+Authors: 
+        - Ramones
+        - adapted to SDCC by Andrear
+        - new versions by mvac7 [mvac7303b@gmail.com]
 Architecture: MSX
 Format: C Object (SDCC .rel)
 Programming language: C and Z80 assembler
@@ -41,10 +42,14 @@ Enjoy it!
 ```
    v1.0 (2007) First version (by Ramones)
    v1.1 (2011) Adapted to SDCC (by Andrear)
-   v1.2 (08/08/2012) Commented button control code. Use the STRIG function from the SDCC JOYSTICK Library.
-                     Commented the code that calls the GTPAD function of the BIOS, so that it works in MSX-DOS.
-   v1.3 (24/01/2016) The CheckMouse function performs the complete check and returns the resulting value.
-   v1.4 (11/12/2020) Converted to C language. Coordinates are passed to C variables instead of fixed positions in memory.
+   v1.2 (08/08/2012) - Commented button control code. Use the STRIG function from 
+                       the SDCC JOYSTICK Library.
+                     - Commented the code that calls the GTPAD function of the 
+                       BIOS, so that it works in MSX-DOS.
+   v1.3 (24/01/2016) - The CheckMouse function performs the complete check and 
+                       returns the resulting value.
+   v1.4 (11/12/2020) - Converted to C language. Coordinates are passed to C 
+                       variables instead of fixed positions in memory.
 ```
 
 
@@ -57,9 +62,9 @@ Enjoy it!
 
 ## Variables
 
-* Mouse_port [char] - value of mouse port (0 - nothing; 1 - port A; 2 - port B)
-* Mouse_X [signed char] - value of X-axis of the mouse
-* Mouse_Y [signed char] - value of Y-axis of the mouse 
+* **Mouse_port** [char] - value of mouse port (0 - nothing; 1 - port A; 2 - port B)
+* **Mouse_X** [signed char] - value of X-axis of the mouse
+* **Mouse_Y** [signed char] - value of Y-axis of the mouse 
 
 
 
@@ -67,11 +72,11 @@ Enjoy it!
   
 I want to give a special thanks to all those who freely share their knowledge with the MSX developer community.
 
-* Ramones > [MSXblog](https://www.msxblog.es/tutoriales-de-programacion-en-ensamblador-ramones/) [MSXbanzai](http://msxbanzai.tni.nl/dev/faq.html)
+* Ramones > [MSXblog](https://www.msxblog.es/tutoriales-de-programacion-en-ensamblador-ramones/) - [MSXbanzai](http://msxbanzai.tni.nl/dev/faq.html)
 * Andrear > [Blog](http://andrear.altervista.org/home/msxsoftware.php)
 * Avelino Herrera > [WEB](http://msx.atlantes.org/index_es.html)
 * Nerlaska > [Blog](http://albertodehoyonebot.blogspot.com.es)
-* Marq/Lieves!Tuore > [Marq](http://www.kameli.net/marq/) [Lieves!Tuore](http://www.kameli.net/lt/)
+* Marq/Lieves!Tuore > [Marq](http://www.kameli.net/marq/) - [Lieves!Tuore](http://www.kameli.net/lt/)
 * [Fubukimaru](https://github.com/Fubukimaru) > [Blog](http://www.gamerachan.org/fubu/)
 * Sapphire/Z80ST > [WEB](http://z80st.auic.es/)
 * Fernando García > [youTube](https://www.youtube.com/user/bitvision)
